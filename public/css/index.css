@@ -1,0 +1,162 @@
+body {
+    border: 2px solid black;
+    margin: 25px;
+    padding: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+#titre_page {
+    font-weight: bold;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+thead > tr td {
+    font-weight: bold;
+    font-style: italic;
+}
+
+tbody tr > td:nth-child(1) {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.liste li {
+    float: left;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.image_acuille1 {
+    filter: blur(5px);
+}
+
+.image_acuille:hover {
+    filter: blur(0px);
+}
+
+
+.image_acuille {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#table {
+    margin-top: 50px;
+}
+
+#video {
+    margin: 20px;
+}
+
+.video_p {
+
+}
+
+.modalType {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li.dropdown a {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    align-self: center;
+
+}
+
+li.dropdown a:hover {
+
+    background-color: green;
+
+}
+
+
+#bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#ilogin {
+    float: left;
+}
+
+#ilogin a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#ibar a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
